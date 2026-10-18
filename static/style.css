@@ -1,9 +1,10 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#navbar ul{
+
+#navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,34 +12,45 @@
     padding: 0;
 }
 
-#navbar{
+#navbar {
     background-color: black;
     padding: 14px 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#navbar li{
+#navbar li {
     list-style: none;
 }
 
-#navbar li a{
+#navbar li a {
     text-decoration: none;
     font-size: 1.75rem;
     padding: 14px 32px;
     color: white;
-}   
-
-#introSection{
-    height: 300px;
-    background-color: aqua;
 }
 
-#sponsorsSection{
+#introSection {
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("/static/bg.jpg.jpg")center / cover no-repeat;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+#introSection div.small{
+    font-size: 1.25rem;
+}
+
+#sponsorsSection {
     height: 300px;
     background-color: rgb(85, 255, 0);
 }
 
-#footer{
+#footer {
     height: 100px;
     background-color: rgb(255, 234, 0);
 }

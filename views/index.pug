@@ -7,19 +7,20 @@ html
   body
     nav#navbar
        ul 
-            li: a(href="/") Home
-            li: a(href="/") About
-            li: a(href="/") Services
-            li: a(href="/") ClassInfo
-            li: a(href="/") ContactUs
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
 
     section#introSection
-    | section for picture 
+     div Welcome to Lakshay's Dance Academy  
+     div.small Eat Dance Sleep Repeat
 
     section#sponsorsSection
-    |  section for sponsors
+     | section for sponsors
 
     footer#footer 
-    | our footer here 
+     |  our footer here 
     script
       include ../static/index.js
