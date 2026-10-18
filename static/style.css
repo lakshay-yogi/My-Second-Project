@@ -29,7 +29,15 @@
     color: white;
 }
 
+#navbar li a:hover{
+    text-decoration: none;
+    font-size: 1.75rem;
+    padding: 14px 32px;
+    color: rgb(130, 1, 76);   
+}
+
 #introSection {
+    padding-bottom: 60px;;
     height: 300px;
     color: white;
     display: flex;
@@ -47,7 +55,14 @@
 
 #sponsorsSection {
     height: 300px;
-    background-color: rgb(85, 255, 0);
+    background-color: rgb(46 3 28);
+    color: white;
+}
+
+#sponsorsSection h2{
+    font-family: cursive;
+    text-align: center;
+    padding-top: 23px;
 }
 
 #footer {
