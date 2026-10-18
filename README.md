@@ -1,3 +1,3 @@
 # My-Second-Project
 This is my second project.
-I am doing with help of pug
+I am doing it with help of pug
