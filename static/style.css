@@ -67,8 +67,10 @@
 }
 
 #missionSection {
+    background-color: rgb(26, 2, 2);
+    color: white;
     margin: auto;
-    width: 73%;
+    width: 100%;
     display: block;
 }
 
@@ -80,6 +82,8 @@
 }
 
 .card{
+    background-color: rgb(54, 1, 32);
+    color: white;
     display: inline-block;
     border: 2px solid black;
     border-radius: 7px;
@@ -89,6 +93,7 @@
 }
 
 .card h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 5px;
 }
