@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+#logo{
+    display:flex;
+    color: white;
+    align-items: center;
+    margin:-2px 9px;
+}
+
+#logo img{
+    height:46px;
+}
+
 #navbar ul {
     display: flex;
     flex-direction: row;
