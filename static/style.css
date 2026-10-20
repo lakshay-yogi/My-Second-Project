@@ -126,6 +126,15 @@
     height: inherit;
 }
 
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #footer {
     height: 100px;
     background-color: rgb(255, 234, 0);
