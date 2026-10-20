@@ -110,6 +110,22 @@
     margin: 5px;
 }
 
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 8px 8px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
 #footer {
     height: 100px;
     background-color: rgb(255, 234, 0);
