@@ -9,6 +9,8 @@
     color: white;
     align-items: center;
     margin:-2px 9px;
+    font-size: 15px;
+    margin-right: 40px;
 }
 
 #logo img{
@@ -18,9 +20,8 @@
 #navbar ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 #navbar {
