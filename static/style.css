@@ -116,7 +116,7 @@
 }
 
 .card h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin: 5px;
 }
@@ -147,6 +147,12 @@
 }
 
 #footer {
-    height: 100px;
-    background-color: rgb(255, 234, 0);
+    color: white;
+    display: flex;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
