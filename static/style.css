@@ -78,6 +78,17 @@
     padding-top: 23px;
 }
 
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.Spimage{
+    height: 100%;
+    margin: 50px;
+}
+
 #missionSection {
     background-color: rgb(26, 2, 2);
     color: white;
